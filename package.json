@@ -1,0 +1,59 @@
+{
+  "name": "dstructs-matrix-reviver",
+  "version": "0.0.0",
+  "description": "Revives a JSON-serialized Matrix.",
+  "author": {
+    "name": "Athan Reines",
+    "email": "kgryte@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Athan Reines",
+      "email": "kgryte@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/coverage -- -R spec",
+    "codecov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/codecov/coverage --report lcovonly -- -R spec && cat ./reports/codecov/coverage/lcov.info | codecov && rm -rf ./reports/codecov"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dstructs/matrix-reviver.git"
+  },
+  "keywords": [
+    "compute.io",
+    "dstructs",
+    "matrices",
+    "matrix",
+    "data",
+    "structures",
+    "json",
+    "parse",
+    "reviver",
+    "revive",
+    "serialization",
+    "unmarshal",
+    "deserialize"
+  ],
+  "bugs": {
+    "url": "https://github.com/dstructs/matrix-reviver/issues"
+  },
+  "dependencies": {
+    "compute-cast-arrays": "^1.0.0",
+    "dstructs-matrix": "git+https://github.com/dstructs/matrix.git#develop",
+    "validate.io-array": "^1.0.6",
+    "validate.io-number-primitive": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "3.x.x",
+    "codecov.io": "^0.1.5",
+    "istanbul": "^0.3.0",
+    "jshint": "2.x.x",
+    "jshint-stylish": "2.x.x",
+    "mocha": "2.x.x",
+    "utils-copy": "^1.0.0"
+  },
+  "license": "MIT"
+}

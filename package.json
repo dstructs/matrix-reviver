@@ -1,6 +1,6 @@
 {
   "name": "dstructs-matrix-reviver",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Revives a JSON-serialized Matrix.",
   "author": {
     "name": "Athan Reines",

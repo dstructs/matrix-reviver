@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "dstructs-cast-arrays": "^1.0.2",
-    "dstructs-matrix": "2.x.x",
+    "dstructs-matrix": ">=2.1.0",
     "validate.io-array": "^1.0.6",
     "validate.io-number-primitive": "^1.0.0"
   },

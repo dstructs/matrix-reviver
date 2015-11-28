@@ -41,7 +41,7 @@
     "url": "https://github.com/dstructs/matrix-reviver/issues"
   },
   "dependencies": {
-    "compute-cast-arrays": "^1.0.0",
+    "dstructs-cast-arrays": "^1.0.2",
     "dstructs-matrix": "git+https://github.com/dstructs/matrix.git#develop",
     "validate.io-array": "^1.0.6",
     "validate.io-number-primitive": "^1.0.0"
